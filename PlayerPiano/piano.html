@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Dominic Panzino: Player Piano Player</title>
+		<style>h3.indent{ padding-left: 0.5em}</style>
+		<style>p.indent{ padding-left: 3em }</style>
+		<style>strong.indent{ padding-left: 3em }</style>
+	</head>
+	<body>
+		<p style="color:#003399;font-size:20px;font-weight:bold;text-align:center;">Player Piano Player (wait, what?)<br>Projected: Winter 2019-2020</p>
+		<p style="color:#000;font-size:14px;font-weight:normal;text-align:center;"><a href="../index.html">Back to Home</a></p>
+		<hr />
+
+		<p style="text-align:center">Why play a player piano when you can have a computer play the player piano via a player piano player?</p>
+
+		<p style="text-align:center;font-style:italic"><img src="profile.PNG" style="width:600px;height:400px;"/><br>It's playing itself! spooky</p>
+		<p style="text-align:center">Firstly, what is a "Player Piano?" A player piano is a piano that can play itself. Modern versions are rare, but do exist, and generally accomplish this through electromechanical means. Most player pianos, however, are very old, built in the 1910s-1920s. These old players are almost universally pnumatically operated. Particularly interestingly, it is actually suction-operated, with the internal operating pressure being <i>below</i> atmospheric, rather than using a pressurized system like we're used to today. The music was encoded on long spools of paper by punching holes in them. These "piano rolls" would be fed through the piano, driven by a pnumatic motor, and passed over a device called a tracker bar, which had many small pilot holes in it. Ordinarily the paper was sucked tight to the tracker bar by the suction and sealed off every port. When a punched hole overlapped a tracker bar hole, it would break the suction, increasing pressure in that chamber up to atmospheric. This would set off a chain of pilot valves and pnumatic switches that ultimately would strike the key of the piano. It is a beautiful and elaborate system that is a ton of fun to watch in action. However, the piano can obviously only play songs for which you have a piano roll, and while there technically is still a piano roll company in business, they don't offer that many modern songs, and they're very expensive. As such, I've been trying to come up with a good way to convert my player piano to a system that could work electronically while still maintaining full back-compatibility. I wanted to augment its functionality, while still being able to use the original piano rolls. The best way I came up with was to have a solenoid valve connected to each pilot chamber of the tracker bar that could vent that chamber to atmosphere. Then some circuitry magic with shift registers, darlington arrays, and an Arduino, and I'd have myself a player piano player. The valves would vent the chambers to the air to command a note to be played, or a piano roll could vent it the normal way. The only constraint is that the tracker bar would need to be sealed off temperarily in order to use the solenoids. This could easily be done with a piano roll by just positioning the roll in the initial silent part of the song, and setting the tempo damper to zero to stop the drive motor. Then the solenoids could go to work. I havn't made anything yet for this project, I'm still just planning, but hope to start work this winter, if not during the fall term.</p>
+
+
+
+	</body>
+</html>
