@@ -33,7 +33,7 @@
 		
 		<p style="text-align:center">It took a lot of tuning to get the solenoids to all work reliably, and the current needed ended up higher than expected, but the boards seem to be able to take it once I added a computer fan to keep the ICs cool. Power is supplied by a 13.8V power supply, with peak currents getting up to 6amps (but averaging around 2.5A). The software is still under development, but for now it is a python script using pySerial and mido to interpret MIDI files and send commands to the arduino in real-time. The software is set up to send simultaneous notes as one set of data, so the arduino can only shift out the serial data when needed to save on processing time. This is important because due to noise, the transfer speed into to the shift registers is fairly low, and this can take up a substantial amount of time (i.e. a few milliseconds). So far though, this has not been a problem except for malformed midi files. There can still be a slight delay in the solenoid activating, so some very fast songs (La Campanella) can have some trouble.
 			
-		<p style="text-align:center;font-style:italic"><img src="full.JPG" style="width:600px;height:400px;"/><br>The full piano assembly</p>
+		<p style="text-align:center;font-style:italic"><img src="full.JPG" style="width:600px;height:400px;"/><br>The full piano assembly. The jumper cables were replaced by proper connections later :)</p>
 		
 	</body>
 </html>
