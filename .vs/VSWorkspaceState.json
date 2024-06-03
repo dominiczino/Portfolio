@@ -1,8 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Autocollimators"
+    "\\Babbage",
+    "\\CNCProgramManager",
+    "\\FloatingTapHolder",
+    "\\HighVacuum",
+    "\\PelletPress",
+    "\\Rotary",
+    "\\SodiumVaporLamp",
+    "\\SoundTrigger",
+    "\\WireEDMMachine"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\CNCProgramManager\\CNCProgramManager.PNG",
   "PreviewInSolutionExplorer": false
 }
