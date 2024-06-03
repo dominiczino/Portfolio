@@ -1,7 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Babbage",
+    "\\CNCProgramManager",
+    "\\FloatingTapHolder",
+    "\\HighVacuum",
+    "\\PelletPress",
+    "\\Rotary",
+    "\\SodiumVaporLamp",
+    "\\SoundTrigger",
+    "\\WireEDMMachine"
   ],
-  "SelectedNode": "\\C:\\Users\\panzi\\Source\\Repos\\dominiczino\\Portfolio",
+  "SelectedNode": "\\CNCProgramManager\\CNCProgramManager.PNG",
   "PreviewInSolutionExplorer": false
 }
